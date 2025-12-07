@@ -240,15 +240,15 @@ label lad_show_text():
 init 5 python:
     addEvent(Event(persistent.event_database,
         eventlabel="Monika_YBWM_again",
-        category=["奖励曲目"],
-        prompt="你可以为我再唱一次YOU_BELONG_WITH_ME吗",
+        category=["音乐"],
+        prompt="你可以为我再唱一次<You belong with me>吗",
         random=False))
 
 
 init 5 python:
         addEvent(Event(persistent.event_database,
             eventlabel="lad_music1",
-            category=["奖励曲目"],
+            category=["音乐"],
             prompt="YOU BELONG WITH ME",
             conditional="_mas_getAffection() >= 600",
             action=EV_ACT_PUSH
@@ -508,14 +508,14 @@ label Monika_YBWM_again(skip_leadin=False):
 init 5 python:
     addEvent(Event(persistent.event_database,
         eventlabel="Monika_AIWFCIY_again",
-        category=["奖励曲目"],
+        category=["音乐"],
         prompt="你可以为我再唱一次All_I_Want_for_Christmas_Is_You吗",
         random=False))
 
 init 5 python:
         addEvent(Event(persistent.event_database,
             eventlabel="lad_music2",
-            category=["奖励曲目"],
+            category=["音乐"],
             prompt="All I Want for Christmas Is You",
             conditional="_mas_getAffection() >= 600",
             start_date=mas_d25,
