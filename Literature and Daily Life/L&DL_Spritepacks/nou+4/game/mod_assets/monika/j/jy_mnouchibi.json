@@ -1,0 +1,27 @@
+{
+    "__author": "5ZCb57+M",
+    "version": 3,
+    "type": 0,
+    "name": "jy_mnouchibi",
+    "img_sit": "jy_mnouchibi",
+    "pose_map": {
+        "default": "0",
+        "l_default": "0"
+    },
+    "rec_layer": 2,
+    "priority": 7,
+    "acs_type": "table_acs",
+    "stay_on_start": true,
+    "keep_on_desk": true,
+    "select_info": {
+        "display_name": "uno～",
+        "thumb": "jy_mnouchibi",
+        "group": "table_acs",
+        "select_dlg": [
+            "猜猜下张牌我要出什么～"
+        ]
+    },
+    "dlg_desc": "桌宠",
+    "dlg_plural": false,
+    "giftname": "monika chibi（+4）"
+}
