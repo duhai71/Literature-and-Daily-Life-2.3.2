@@ -3,7 +3,7 @@ init -990 python:
         author="LADL团队",
         name="Literature And Daily Life V2",
         description="包含了大量话题、数首歌曲等内容的Submod.",
-        version='2.2.2',
+        version='2.3.0',
         settings_pane="LADL_setting_pane"
     )
 
