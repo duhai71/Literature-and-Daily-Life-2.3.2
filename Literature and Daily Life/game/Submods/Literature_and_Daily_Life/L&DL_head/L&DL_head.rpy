@@ -3,7 +3,7 @@ init -990 python:
         author="LADL团队",
         name="Literature And Daily Life V2",
         description="包含了大量话题、数首歌曲等内容的Submod.",
-        version='2.3.0',
+        version='2.3.1',
         settings_pane="LADL_setting_pane"
     )
 
@@ -89,13 +89,13 @@ init -951 python:
         store.mas_submod_utils.submod_log.error("删除旧版本遗留文件出错：{}".format(l))
 
 define LADL_authors = """\
-度海、moon、456、Kxiangtang、哞尼卡、群阿巴阿巴、君翌、俩fish、龟酱.
+度海、moon、456、Kxiangtang、哞尼卡、君翌、俩fish、龟酱.
 """
 
 define LADL_thanks = """\
 特别感谢以下人员：
 - 测试人员:白莫、庭有枇杷树
-- 技术支持:最初の心、璀辰、Sir.P
+- 技术支持:最初の心、璀辰、Sir.P、群阿巴阿巴
 - 翻译帮助:stary
 """
 
